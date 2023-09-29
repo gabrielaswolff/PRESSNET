@@ -1,0 +1,157 @@
+/* ATIVIDADE GRID */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 20% 80%;  
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-rows: 10% 80% 10%;
+    /* grid-template-areas: 'header header' 
+                         'aside main'
+                         'footer footer'; */
+    grid-template-areas: 'aside header' 
+                         'aside main'
+                         'aside footer';
+                         
+}
+
+header{
+   background-color: #38386e;
+    grid-area: header;
+    height: 10vh;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+main{
+    background-image: url(fundo-img.jpeg);
+    background-size: 50%;
+    grid-area: main;
+    height: 80vh;
+}
+
+aside{
+    background-color:#38386e;
+    grid-area: aside;
+    height: 100vh;
+}
+
+footer{
+    background-color: #38386e;
+    grid-area: footer;
+    height: 10vh;
+}
+
+
+.item1{
+    grid-area: item1;
+    height: 30vh;
+    width: 15vw;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.item2{
+    grid-area: item2;
+    height: 14vh;
+    width: 15vw;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.item3{
+    grid-area: item3;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+
+.item3-1{
+    width: 7vw;
+    height: 14vh;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.item4{
+    grid-area: item4;
+    height: 14vh;
+    width: 15vw;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.item5{
+    grid-area: item5;
+    border: 1px solid rgb(255, 251, 251);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.item5-1{
+    height: 7vh;
+    width: 14vw;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sectionUm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'item1 item2 item3'
+                         'item1 item4 item5'
+                         
+    
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex: 1;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px; 
+}
+
+/* pagina de cadastro */
+
+body{
+    font-family: Arial, sans-serif;}
+    
+   
+
+.entrar{
+    display: inline-block; 
+    padding: 10px; 
+    border: 1px solid ; 
+    text-decoration: none; 
+    align-items: center;
+    display: flex;
+    color: white;}
+
+    
+
+
+    

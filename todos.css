@@ -1,0 +1,289 @@
+/* TODAS AS PÁGINAS, MENOS OS "CLASSIFICADOS" */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: #38386e;
+    height: 100px;
+    display: flex;
+
+   
+}
+
+body{
+   background-image: url(fundo-img.jpeg);
+   background-size: 40%;
+   
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex: 1;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+.manchetes{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.multiline{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    white-space: pre-line;
+    width: 50vw;
+}
+
+
+
+/* noticia notco*/
+
+
+
+body{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    
+    
+
+}
+
+.container{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    white-space: pre-line;
+    
+}
+
+.jornal-text{
+    background-color: #38386e;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 600px;
+    color: white;
+    white-space: pre-line;
+  
+}
+
+
+/* pagina de cadastro */
+
+body{
+    font-family: Arial, sans-serif;
+    
+   
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ffffff;
+    background-color: #38386e;
+    color: white;
+    
+
+}
+label, input{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.entrar{
+            display: inline-block; 
+            padding: 10px; 
+            border: 1px solid ; 
+            text-decoration: none; 
+            align-items: center;
+            display: flex;
+            color: white;
+           
+}
+
+/* pagina inicial */
+
+body{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    white-space: pre-line;
+    height: 640px;
+    
+}
+
+.jornal-text2{
+    background-color: #38386e;
+    padding: 70px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 600px;
+    color: rgb(255, 255, 255);
+    white-space: pre-line; 
+  
+}
+
+.continuar{
+   
+    padding: 10px; 
+    border: 1px solid ; 
+    text-decoration: none; 
+    align-items: center;
+    color: rgb(255, 255, 255);  
+}
+
+
+
+/* página dos trabalhos de artes */
+
+.container3{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    white-space: pre-line;
+    
+}
+
+.jornal-text3{
+    background-color: #38386e;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 600px;
+    color: white;
+    white-space: pre-line;
+}
+
+
+.container6{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    white-space: pre-line;
+    
+}
+
+.jornal-text6{
+    background-color: #38386e;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 600px;
+    color: white;
+    white-space: pre-line;
+}
+
+
+/* manchete notco */
+
+
+.containers{
+position: relative;
+width: 100%;
+height: 40vh; /* altura */
+}
+
+/* caixas de variedades e manchetes */
+
+.box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 700px;
+height: 150px;
+background-color: #38386e;
+text-align: center;
+padding: 20px;
+}
+
+.box a {
+text-decoration: none;
+color: #ffffff;
+}
+
+/* para estilizar os links */
+
+.link-job{
+    color: white;
+}
+    
+/* página da reportagem de português */
+
+.container0{
+    height: 510vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    white-space: pre-line;
+    
+}
+
+.jornal-text0{
+    background-color: #38386e;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 600px;
+    color: white;
+    white-space: pre-line;
+}
+ 
+
+
+
+
+  
+
